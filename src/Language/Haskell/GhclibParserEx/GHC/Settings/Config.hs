@@ -16,7 +16,7 @@ import GHC.Settings.Config
 import GHC.Driver.Session
 import GHC.Utils.Fingerprint
 import GHC.Platform
-import GHC.Settings
+import GHC.Settings (ToolSettings(..))
 #elif defined (GHCLIB_API_810)
 import Config
 import DynFlags
